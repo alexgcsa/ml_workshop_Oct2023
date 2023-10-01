@@ -1,18 +1,18 @@
 # BIOT7060
-## Machine Learning Workshop - Exploring Small Molecule Bee Toxicity
+## Machine Learning Workshop - Patient Diabetes
 
 by [@alexgcsa](https://twitter.com/alexgcsa)
 
 ## Colab Notebooks
 
 The material can be accessed via Google Colab Notebooks:
-- [Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/mlw_part1.ipynb)
-- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/mlw_part2.ipynb)
+- [Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/BIOT7060_mlw_p1_v1.ipynb)
+- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/BIOT7060_mlw_p2_v1.ipynb)
 
 
 ## Local installation
 
-Alternatively, if you want to run it locally, we suggest you use [anaconda](https://docs.anaconda.com/free/anaconda/install/) (or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) to manage a virtual environment and install dependencies.
+Alternatively, if you want to run it locally, we suggest you use [Anaconda](https://docs.anaconda.com/free/anaconda/install/) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) to manage a virtual environment and install dependencies.
 
 
 ### First, create an environment with the following command:
