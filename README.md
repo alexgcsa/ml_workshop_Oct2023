@@ -6,8 +6,8 @@ by [@alexgcsa](https://twitter.com/alexgcsa)
 ## Colab Notebooks
 
 The material can be accessed via Google Colab Notebooks:
-- [Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/ml_lecture_part1.ipynb)
-- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/ml_lecture_part2.ipynb)
+- [Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/ml_lecture_p1.ipynb)
+- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/ml_lecture_p2.ipynb)
 
 
 ## Local installation
