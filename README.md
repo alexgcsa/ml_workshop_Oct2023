@@ -6,7 +6,7 @@ by [@alexgcsa](https://twitter.com/alexgcsa)
 ## Colab Notebooks
 
 The material can be accessed via Google Colab Notebooks:
-- [Classification colab](https://colab.research.google.com/github/carlosmr12/mlwk2023/blob/master/lecture1_classification.ipynb)
+- [Classification colab](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/ml_lecture_part1.ipynb)
 
 
 ## Local installation
