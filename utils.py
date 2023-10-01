@@ -154,11 +154,11 @@ def plot_train_test_class(y_train, y_test):
                  row=1, col=1)
 
     fig.add_trace(go.Pie(values=y_test.value_counts().values, \
-                        labels=y_test.value_counts().index, \
+                        labels=y_train.value_counts().index, \
                         title='Test set'),
                  row=1, col=2)
 
     fig.update_traces(hoverinfo='label+percent', textinfo='value', textfont_size=20,
-                     marker=dict(colors=['red','blue'], line=dict(color='#000000', width=2)))
+                     marker=dict(colors=['blue','red'], line=dict(color='#000000', width=2)))
 
     iplot(fig)
