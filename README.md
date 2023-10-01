@@ -1,5 +1,5 @@
 # BIOT7060
-## Machine Learning Workshop - Patient Diabetes
+## Machine Learning Workshop - Predicting Patient Diabetes with Demographics and Medical Information
 
 by [@alexgcsa](https://twitter.com/alexgcsa)
 
