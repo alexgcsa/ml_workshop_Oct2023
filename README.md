@@ -7,7 +7,7 @@ by [@alexgcsa](https://twitter.com/alexgcsa)
 
 The material can be accessed via Google Colab Notebooks:
 - [Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/BIOT7060_mlw_p1_v1.ipynb)
-- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/BIOT7060_mlw_p2_v2.ipynb)
+- [Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/ml_workshop_Oct2023/blob/master/BIOT7060_mlw_p2_v3.ipynb)
 
 
 ## Local installation
