@@ -9,6 +9,7 @@ from sklearn.preprocessing import label_binarize
 from sklearn.metrics import mean_squared_error, classification_report, \
     confusion_matrix, ConfusionMatrixDisplay
 from tabulate import tabulate
+import pandas as pd
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -70,11 +71,22 @@ def feat_importance(model):
     fig.update_layout(yaxis_title="Importance score", xaxis_title="Features")
     iplot(fig)
 
-def gen_train_test_cm(y_train, pred_train, y_test, pred_test, classes):
-    print("Performance on Training (k-fold cross validation)")
-    print(classification_report(y_train, pred_train))
-    print("Performance on Test set")
-    print(classification_report(y_test, pred_test))
+def gen_train_test_performances(y_train, pred_train, y_test, pred_test, classes):
+    print("\033[1m" + "Performance on Training (k-fold cross validation)" + "\033[0m")
+    output_dict_train = classification_report(y_train, pred_train, output_dict=True)
+    output_train_df = pd.DataFrame(output_dict_train)
+    output_train_df = output_train_df.drop("accuracy",axis=1)
+    output_train_df = output_train_df.drop("support",axis=0)
+    print(output_train_df.round(3))    
+    
+    print("\n\n")
+    print("\033[1m" + "Performance on Test set" +  "\033[0m")
+    output_dict_test = classification_report(y_test, pred_test, output_dict=True)
+    output_test_df = pd.DataFrame(output_dict_test)
+    output_test_df = output_test_df.drop("accuracy",axis=1)
+    output_test_df = output_test_df.drop("support",axis=0)
+    print(output_test_df.round(3)) 
+    print("\n\n\n\n")
 
     cm_train = confusion_matrix(y_train, pred_train)
     disp_train = ConfusionMatrixDisplay(confusion_matrix=cm_train)
@@ -159,6 +171,6 @@ def plot_train_test_class(y_train, y_test):
                  row=1, col=2)
 
     fig.update_traces(hoverinfo='label+percent', textinfo='value', textfont_size=20,
-                     marker=dict(colors=['blue','red'], line=dict(color='#000000', width=2)))
+                     marker=dict(colors=['lightblue','lightcoral'], line=dict(color='#000000', width=2)))
 
     iplot(fig)
